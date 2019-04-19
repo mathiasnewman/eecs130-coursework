@@ -1,0 +1,103 @@
+nav {
+  background-color: #1D3557;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+}
+
+body {
+  background-color: #EFFFFA;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.head_card {
+  padding-left: 10px;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #769DC9;
+}
+
+.wrapper {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+p, ol, figcaption {
+  font-family: 'Poppins', sans-serif;
+}
+
+figure img {
+  height: 300px;
+  width: 220px;
+}
+
+.cat_card {
+  text-align: center;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+.story_card {
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  height: 500px;
+  width: 500px;
+}
+
+.detail_card {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  height: 4450px;
+  width: 580px;
+}
+
+.detail_card_img img {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.author_card {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  height: 700px;
+  width: 505px;
+}
+
+.author_card_img {
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+  height: 600px;
+  width: 400px;
+}
+
+.author_card_small {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  height: 200px;
+  width: 250px;
+}
