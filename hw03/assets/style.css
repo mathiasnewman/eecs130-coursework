@@ -1,0 +1,112 @@
+.container {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   grid-template-areas:
+      "nav_menu"
+      "head"
+      "content";
+   min-height: 100vh;
+}
+
+body {
+  background-color: #EFFFFA;
+  margin: 0px;
+}
+
+nav {
+  grid-area: nav_menu;
+  background-color: #1D3557;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+}
+
+.head_card {
+  grid-area: head;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #769DC9;
+}
+
+p, ol, figcaption, h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+article img {
+  height: 256px;
+  width: 192px;
+}
+
+.cards {
+  grid-area: content;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.cards .cat_cards, .story_card {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  width: 25%;
+  margin-bottom: 15px;
+}
+
+.cat_cards img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story_card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story_card figcaption {
+  text-align: center;
+}
+
+.cat_cards figcaption {
+  text-align: center;
+}
+
+.detail_card {
+  width: 46%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.detail_card_img img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.author_card {
+  width: 46%;
+  margin: 2%;
+}
+
+.author_card img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .cards .cat_cards, .story_card, .detail_card, .author_card {
+    width: 100%;
+  }
+}
