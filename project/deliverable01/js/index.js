@@ -3,7 +3,7 @@ const search = (ev) => {
     let term = document.querySelector('input').value;
     //window.location.href = "./results.html";
     let myAppID = "MathiasN-SearchWe-PRD-4ea9e4abd-812df157";
-    let url = "http://svcs.ebay.com/services/search/FindingService/v1";
+    let url = "https://svcs.ebay.com/services/search/FindingService/v1";
         url += "?OPERATION-NAME=findItemsByKeywords";
         url += "&SERVICE-VERSION=1.0.0";
         url += "&SECURITY-APPNAME="+myAppID;
