@@ -95,7 +95,7 @@ const displayResults = (root) => {
           <a href="${item.viewItemURL}" target="_blank">
             <div class="card">
                 <img src="${item.galleryURL}">
-                <p>${item.title}, Price: $${item.currentPrice}</p>
+                <p>${item.title}</p>
             </div>
           </a>
           `;
