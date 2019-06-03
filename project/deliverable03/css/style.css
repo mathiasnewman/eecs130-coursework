@@ -1,0 +1,115 @@
+.container {
+   /* min-height: 100vh; */
+   text-align: center;
+}
+
+#header {
+  padding-top: 20px;
+}
+
+body {
+  margin: 0px;
+  font-size: 1.2em;
+  font-family: 'Roboto Condensed', sans-serif;
+	color: #555;
+}
+
+select {
+  font-size: 0.9em;
+  font-family: 'Roboto Condensed', sans-serif;
+	color: #555;
+}
+
+/* body * {
+	box-sizing: border-box;
+} */
+
+.search_bar input, button {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.search_bar input {
+  width: 400px;
+  padding: 5px 5px;
+  transition: all 0.30s ease-in-out;
+	outline: none;
+	background: #fff;
+	border: 1px solid #ccc;
+}
+
+.search_bar input:focus {
+  box-shadow: 0 0 5px rgba(0, 50, 255, 0.77);
+	border: 1px solid rgba(0, 50, 255, 0.77);
+}
+
+.search_bar button {
+  padding: 5px 15px;
+  background: white;
+  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+  background: rgba(0, 50, 255, 0.77);
+  border-radius: 3px;
+  border-color: transparent;
+	color: #fff;
+}
+
+.search_bar button:hover {
+  background: rgba(50, 50, 255, 1);
+}
+
+.output {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  /* min-height: 100vh; */
+  text-align: center;
+}
+
+.filters1, .filters2 {
+  /* padding: 10px; */
+  width: 100%;
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+label {
+  font-size: 0.9em;
+}
+
+.filter1, .filter2 {
+  display: inline-block;
+}
+
+.card {
+  font-size: 0.9em;
+  text-decoration: none;
+  width: 23%;
+  height: auto;
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.card:hover {
+  box-shadow: 0 0 5px rgba(0, 50, 255, 0.77);
+	border: 1px solid rgba(0, 50, 255, 0.77);
+}
+
+.card img {
+  /* height: 200px;
+  width: 200px; */
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 50%;
+  }
+}

@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>eBay Search</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body class="container">
+    <h1 id="header">eBay Search</h1>
+    <div class="search_bar">
+        <input id="search_input" type="text" placeholder="">
+        <button id="search">Search</button>
+    </div>
+    <div class="filters1">
+        <div class="filter1">
+            <label>Minimum Price</label><br>
+            <input id="min_price" type="text" placeholder="$">
+        </div>
+        <div class="filter1">
+            <label>Maximum Price</label><br>
+            <input id="max_price" type="text" placeholder="$">
+        </div>
+        <div class="filter1">
+            <label>Number of Results</label><br>
+            <input id="num_items" type="text" placeholder="">
+        </div>
+      </div>
+      <div class="filters2">
+        <div class="filter2">
+            <label>Condition</label><br>
+            <select id="condition">
+              <option val="off">--</option>
+              <option val="off">New</option>
+              <option val="off">Used</option>
+            </select>
+        </div>
+        <div class="filter2">
+            <label>Listing Type</label><br>
+            <select id="format">
+              <option val="off">--</option>
+              <option val="off">Auction</option>
+              <option val="off">Buy It Now</option>
+            </select>
+        </div>
+        <div class="filter2">
+            <label>Sold Status</label><br>
+            <select id="status">
+              <option val="off">--</option>
+              <option val="off">Sold</option>
+              <option val="off">Anything</option>
+            </select>
+        </div>
+        <div class="filter2">
+            <label>Shipping</label><br>
+            <select id="shipping">
+              <option val="off">--</option>
+              <option val="off">Free Only</option>
+              <option val="off">Anything</option>
+            </select>
+        </div>
+    </div>
+    <div class="output">--Search results will be displayed here--</div>
+    <script lang="text/javascript" src="js/index.js"></script>
+</body>
+</html>
